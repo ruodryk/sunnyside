@@ -1,0 +1,43 @@
+.testmonials__title {
+    font-family: 'Fraunces', serif;
+    color: var(--grayish-blue-light);
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.testmonials__container {
+    max-width: 80vw;
+    margin: 6rem auto 16rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.testmonials__item {
+    text-align: center;
+}
+
+.testmonials__text {
+    width: 80%;
+    margin: 0 auto 6rem;
+    line-height: 1.8;
+    color: var(--dark-blue);
+}
+
+.testmonials__img {
+    border-radius: 50%;
+    width: 8rem;
+    margin-bottom: 6rem;
+}
+
+.testmonials__author {
+    font-family: 'Fraunces', serif;
+    color: var(--dark-blue);
+    margin-bottom: 1rem;
+}
+
+.testmonials__job {
+    color: var(--grayish-blue-light);
+    font-size: 1.4rem;
+}

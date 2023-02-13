@@ -1,0 +1,70 @@
+.header {
+    background-image: url("../../images/desktop/image-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+}
+
+.header__container {
+    max-width: 144rem;
+    margin: 0 auto;
+    padding: 4rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    list-style: none;
+    display: flex;
+    gap: 8rem;
+    align-items: center;
+}
+
+.header__link:link, .header__link:visited {
+    color: white;
+    text-decoration: none;
+    transition: all .5s ease-in;
+}
+
+.header__link:hover, .header__link:active {
+    color: var(--dark-blue);
+}
+
+.header__link_btn:link, .header__link_btn:visited {
+    background-color: white;
+    color: var(--dark-blue);
+    padding: 1rem 3rem;
+    border-radius: 10rem;
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+    transition: all 0.5s ease-in;
+    text-transform: uppercase;
+}
+
+.header__link_btn:hover, .header__link_btn:active {
+    background-color: rgba(255,255,255,.5);
+    color: white;
+} 
+
+.header__title-box {
+    display: flex;
+    margin-top: 12rem;
+}
+
+.header__title {
+    margin: auto;
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1.5rem;
+    font-size: 6rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.header__title span {
+    margin-top: 5rem;
+    font-size: 20rem;
+}

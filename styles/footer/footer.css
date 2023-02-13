@@ -1,0 +1,37 @@
+.footer {
+    background-color: var(--green);
+    display: flex;
+    flex-direction: column;
+    padding: 10rem;
+    gap: 5rem;
+    align-items: center;
+}
+
+.footer svg {
+    fill: var(--desa-cyan);
+}
+
+.footer__list {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+}
+
+.footer__list li svg {
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.footer__list li svg:hover {
+    fill: white;
+}
+
+.footer__link:link, .footer__link:visited {
+    color: var(--desa-cyan);
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+}
+
+.footer__link:hover, .footer__link:active {
+    color: white;
+}
